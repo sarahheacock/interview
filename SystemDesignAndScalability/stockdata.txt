@@ -1,0 +1,34 @@
+called up to 1,000 clients a day to get end-of-day stock info
+already have the data
+
+(1) development
+(2) rollout
+(3) ongoing monitoring/maintenance of feed
+
+Can elect to use a web service or not. SOAP (Simple Object Access Protocol)
+SOAP relies on XML to provide messaging
+REST uses url rather than XML to make simple request
+
+
+Option #1 SQL DB ################################
+Good
+(1) allows easy querying
+(2) back up and security of data
+(3) easier for clients to integrate
+
+Bad
+(1) heavy weight
+(2) additional layer to view and maintain the data
+(3) would have to prevent malicious requests
+
+
+Option #2 XML ###################################
+Good
+(1) read by machines and humans
+(2) most languages have xml parsing
+(3) add data with additional nodes
+(4) existing tools for backing up
+
+Bad
+(1) sends all info
+(2) have to parse entire file

@@ -1,0 +1,23 @@
+{
+  "name": "job-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sumSub.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahheacock/interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahheacock/interview/issues"
+  },
+  "homepage": "https://github.com/sarahheacock/interview#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
