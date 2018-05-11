@@ -33,3 +33,14 @@ function immutable(){
   return str;
 }
 console.log(immutable());
+
+function counter(num){
+  num += 1;
+}
+
+function main(){
+  let n = 1;
+  counter(n);
+  return n;
+}
+console.log(main())
